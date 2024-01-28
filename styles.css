@@ -1,0 +1,82 @@
+/* Reset some default margin and padding */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a basic styling to the body */
+body {
+    background-image: url("https://wallpapers.com/images/hd/seattle-hd-cjgta92xmmam0h56.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Center all text */
+body, h1, h2, h3, p, ul, li {
+    text-align: center;
+}
+
+/* Style the menu section */
+#nav {
+    background-color: #fea99b;
+    
+}
+
+/* Style the feature section */
+#feature {
+    background-color: #f8e337;
+    background-image: url("https://scene7.vailresorts.com/is/image/vailresorts/photos%20and%20vid%20hero?resMode=sharp2&wid=1920&fit=constrain,1&dpr=on,1");
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 10em;
+}
+
+/* Style the content section */
+#content {
+    overflow: auto;
+}
+
+/* Style the column sections */
+.column1, .column2, .column3 {
+    width: 30.3%;
+    float: left;
+    margin: 1%;
+    height: 10em;
+}
+
+
+.column1 {
+    background-color: #a9f837;
+}
+
+.column2 {
+    background-color: #37f8b2;
+}
+
+.column3 {
+    background-color: #37c0f8;
+    margin-right: 0%;
+}
+
+/* Style the footer section */
+#footer {
+    background-color: #b237f8;
+    height: 2em;
+
+}
+#header {
+    /* ... (existing styles) ... */
+}
+
+/* Style the logo (h1 element) */
+#header h1 {
+    color: #FFA500; /* Orange color for the logo */
+    font-family: cursive, sans-serif
+}
+
+
+/* Apply the custom font to paragraph elements */
+
